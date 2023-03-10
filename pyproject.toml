@@ -1,0 +1,41 @@
+[tool.pdm]
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "xiaojin", email = "xiaojinwhu10@gmail.com"},
+]
+dependencies = [
+    "torch @ https://download.pytorch.org/whl/nightly/cpu-cxx11-abi/torch-2.1.0.dev20230302%2Bcpu.cxx11.abi-cp310-cp310-linux_x86_64.whl",
+    "numpy>=1.24.2",
+    "transformers>=4.26.1",
+    "datasets>=2.10.1",
+    "tiktoken>=0.3.0",
+    "wandb>=0.13.10",
+    "tqdm>=4.64.1",
+]
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+
+# [tool.pdm.plugins.torch]
+# dependencies = [
+#    "torch==1.10.2"
+# ]
+# lockfile = "torch.lock"
+# enable-cpu = true
+
+# enable-rocm = true
+# rocm-versions = ["4.2"]
+
+# enable-cuda = true
+# cuda-versions = ["cu111", "cu113"]
+
+# [tool.pdm.scripts]
+# post_install = "pdm plugin add pdm-plugin-torch==$VERSION"
+# [[tool.pdm.source]]
+# url = "https://download.pytorch.org/whl/nightly/cu116"
+# verify_ssl = true
+# name = "torch"
