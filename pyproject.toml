@@ -1,4 +1,8 @@
 [tool.pdm]
+[tool.pdm.dev-dependencies]
+dev = [
+    "pip>=23.0.1",
+]
 
 [project]
 name = ""

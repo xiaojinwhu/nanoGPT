@@ -261,6 +261,12 @@ version = "0.1.2"
 summary = "File system general utilities"
 
 [[package]]
+name = "pip"
+version = "23.0.1"
+requires_python = ">=3.7"
+summary = "The PyPA recommended tool for installing Python packages."
+
+[[package]]
 name = "protobuf"
 version = "4.22.0"
 requires_python = ">=3.7"
@@ -484,7 +490,7 @@ dependencies = [
 
 [metadata]
 lock_version = "4.1"
-content_hash = "sha256:6c39b78d4d9067b7848cd3e7c74c1327a523c82f868fed4c4b9923d73b418c70"
+content_hash = "sha256:74b063298af1022576bafe28634e94ad1e84916eb3ff9742cab5e244efe69982"
 
 [metadata.files]
 "aiohttp 3.8.4" = [
@@ -1109,6 +1115,10 @@ content_hash = "sha256:6c39b78d4d9067b7848cd3e7c74c1327a523c82f868fed4c4b9923d73
 ]
 "pathtools 0.1.2" = [
     {url = "https://files.pythonhosted.org/packages/e7/7f/470d6fcdf23f9f3518f6b0b76be9df16dcc8630ad409947f8be2eb0ed13a/pathtools-0.1.2.tar.gz", hash = "sha256:7c35c5421a39bb82e58018febd90e3b6e5db34c5443aaaf742b3f33d4655f1c0"},
+]
+"pip 23.0.1" = [
+    {url = "https://files.pythonhosted.org/packages/07/51/2c0959c5adf988c44d9e1e0d940f5b074516ecc87e96b1af25f59de9ba38/pip-23.0.1-py3-none-any.whl", hash = "sha256:236bcb61156d76c4b8a05821b988c7b8c35bf0da28a4b614e8d6ab5212c25c6f"},
+    {url = "https://files.pythonhosted.org/packages/6b/8b/0b16094553ecc680e43ded8f920c3873b01b1da79a54274c98f08cb29fca/pip-23.0.1.tar.gz", hash = "sha256:cd015ea1bfb0fcef59d8a286c1f8bebcb983f6317719d415dc5351efb7cd7024"},
 ]
 "protobuf 4.22.0" = [
     {url = "https://files.pythonhosted.org/packages/1e/bf/54a989c36c1f2486d9b16f9ae423ca0060710a92408f1fed1a30c0368f85/protobuf-4.22.0-cp37-abi3-macosx_10_9_universal2.whl", hash = "sha256:e894e9ae603e963f0842498c4cd5d39c6a60f0d7e4c103df50ee939564298658"},

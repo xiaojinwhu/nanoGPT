@@ -1,0 +1,6 @@
+[core]
+    autostage = true
+    remote = gptoss
+['remote "gptoss"']
+    url = oss://lr-ai-assets/nanoGPT
+    oss_endpoint = oss-cn-shanghai.aliyuncs.com
